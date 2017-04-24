@@ -5,7 +5,7 @@ function preload() {
 function setup() {
   createCanvas(640,360);
   img.filter(INVERT);
-  for (var i = 0; i <15; i++) {
+  for (var i = 0; i <10; i++) {
     fishes[i] = new Fish(img,createVector(random(width),random(height)));
   }
 
